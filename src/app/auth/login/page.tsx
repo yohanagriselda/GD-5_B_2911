@@ -2,8 +2,8 @@
 
 import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
-import AuthFormWrapper from '../../../components/AuthFormWrapper';
-import SocialAuth from '../../../components/SocialAuth';
+import AuthFormWrapper from '../../components/AuthFormWrapper';
+import SocialAuth from '../../components/SocialAuth';
 import Link from 'next/link';
 import { toast } from 'react-toastify';
 
