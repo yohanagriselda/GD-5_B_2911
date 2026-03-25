@@ -4,8 +4,8 @@ import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
-import AuthFormWrapper from '../../../components/AuthFormWrapper';
-import SocialAuth from '../../../components/SocialAuth';
+import AuthFormWrapper from '../../components/AuthFormWrapper';
+import SocialAuth from '../../components/SocialAuth';
 import { toast } from 'react-toastify';
 
 type RegisterFormData = {
